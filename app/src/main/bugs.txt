@@ -1,0 +1,53 @@
+
+bei backbutton
+
+09-21 21:52:42.666  18423-18423/com.devpaul.bluetoothutilitydemo E/ActivityThread﹕ Activity com.devpaul.bluetoothutilitydemo.MainActivity has leaked IntentReceiver com.devpaul.bluetoothutillib.broadcasts.BluetoothStateReceiver@217c122f that was originally registered here. Are you missing a call to unregisterReceiver()?
+    android.app.IntentReceiverLeaked: Activity com.devpaul.bluetoothutilitydemo.MainActivity has leaked IntentReceiver com.devpaul.bluetoothutillib.broadcasts.BluetoothStateReceiver@217c122f that was originally registered here. Are you missing a call to unregisterReceiver()?
+            at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:903)
+            at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:704)
+            at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1643)
+            at android.app.ContextImpl.registerReceiver(ContextImpl.java:1623)
+            at android.app.ContextImpl.registerReceiver(ContextImpl.java:1617)
+            at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:489)
+            at com.devpaul.bluetoothutillib.broadcasts.BluetoothStateReceiver.register(BluetoothStateReceiver.java:38)
+            at com.devpaul.bluetoothutillib.SimpleBluetooth.<init>(SimpleBluetooth.java:156)
+            at com.devpaul.bluetoothutilitydemo.MainActivity.onResume(MainActivity.java:39)
+            at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1257)
+            at android.app.Activity.performResume(Activity.java:6076)
+            at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2975)
+            at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:3017)
+            at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2392)
+            at android.app.ActivityThread.access$800(ActivityThread.java:151)
+            at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1303)
+            at android.os.Handler.dispatchMessage(Handler.java:102)
+            at android.os.Looper.loop(Looper.java:135)
+            at android.app.ActivityThread.main(ActivityThread.java:5254)
+            at java.lang.reflect.Method.invoke(Native Method)
+            at java.lang.reflect.Method.invoke(Method.java:372)
+            at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:903)
+            at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:698)
+09-21 21:52:42.667  18423-18423/com.devpaul.bluetoothutilitydemo E/ActivityThread﹕ Activity com.devpaul.bluetoothutilitydemo.MainActivity has leaked IntentReceiver com.devpaul.bluetoothutillib.broadcasts.BluetoothStateReceiver@3057ec1b that was originally registered here. Are you missing a call to unregisterReceiver()?
+    android.app.IntentReceiverLeaked: Activity com.devpaul.bluetoothutilitydemo.MainActivity has leaked IntentReceiver com.devpaul.bluetoothutillib.broadcasts.BluetoothStateReceiver@3057ec1b that was originally registered here. Are you missing a call to unregisterReceiver()?
+            at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:903)
+            at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:704)
+            at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1643)
+            at android.app.ContextImpl.registerReceiver(ContextImpl.java:1623)
+            at android.app.ContextImpl.registerReceiver(ContextImpl.java:1617)
+            at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:489)
+            at com.devpaul.bluetoothutillib.broadcasts.BluetoothStateReceiver.register(BluetoothStateReceiver.java:38)
+            at com.devpaul.bluetoothutillib.SimpleBluetooth.<init>(SimpleBluetooth.java:156)
+            at com.devpaul.bluetoothutilitydemo.MainActivity.onResume(MainActivity.java:39)
+            at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1257)
+            at android.app.Activity.performResume(Activity.java:6076)
+            at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2975)
+            at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:3017)
+            at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1347)
+            at android.os.Handler.dispatchMessage(Handler.java:102)
+            at android.os.Looper.loop(Looper.java:135)
+            at android.app.ActivityThread.main(ActivityThread.java:5254)
+            at java.lang.reflect.Method.invoke(Native Method)
+            at java.lang.reflect.Method.invoke(Method.java:372)
+            at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:903)
+            at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:698)
+
+
